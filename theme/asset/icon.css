@@ -1,0 +1,56 @@
+/**
+ * deprecate
+ *
+ * @font-face { font-family: 'Material Icons'; font-style: normal; font-weight: 400; src: url('/font/google/material/legacy/0.0.0/regular.woff2') format('woff2'); }
+ * @font-face { font-family: 'Material Icons Outlined'; font-style: normal; font-weight: 400; src: url('/font/google/material/legacy/0.0.0/line.woff2') format('woff2'); }
+ * @font-face { font-family: 'Material Icons Round'; font-style: normal; font-weight: 400; src: url('/font/google/material/legacy/0.0.0/round.woff2') format('woff2'); }
+ * @font-face { font-family: 'Material Icons Sharp'; font-style: normal; font-weight: 400; src: url('/font/google/material/legacy/0.0.0/sharp.woff2') format('woff2'); }
+ * @font-face { font-family: 'Material Icons Two Tone'; font-style: normal; font-weight: 400; src: url('/font/google/material/legacy/0.0.0/tone.woff2') format('woff2'); } body { --google-font-color-materialiconstwotone: none; }
+ *
+ * https://theme.newbizen.com/material
+ */
+
+@font-face { font-family: 'Material Symbols Outlined'; font-style: normal; font-weight: 100 700; src: url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200') format('woff2'); }
+@font-face { font-family: 'Material Symbols Rounded'; font-style: normal; font-weight: 100 700; src: url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200') format('woff2'); }
+
+.material-icon { font-family: 'Material Icons'; -webkit-font-feature-settings: 'liga'; -webkit-font-smoothing: antialiased; }
+.material-icon-line { font-family: 'Material Icons Outlined'; -webkit-font-feature-settings: 'liga'; -webkit-font-smoothing: antialiased; }
+.material-icon-round { font-family: 'Material Icons Round'; -webkit-font-feature-settings: 'liga'; -webkit-font-smoothing: antialiased; }
+.material-icon-sharp { font-family: 'Material Icons Sharp'; -webkit-font-feature-settings: 'liga'; -webkit-font-smoothing: antialiased; }
+.material-icon-tone { font-family: 'Material Icons Two Tone'; -webkit-font-feature-settings: 'liga'; -webkit-font-smoothing: antialiased; }
+
+.material-symbol { font-family: 'Material Symbols Outlined'; font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24; -webkit-font-feature-settings: 'liga'; -webkit-font-smoothing: antialiased; }
+.material-symbol.weight__100 { font-variation-settings: 'FILL' 1, 'wght' 100, 'GRAD' 0, 'opsz' 24; }
+.material-symbol.weight__200 { font-variation-settings: 'FILL' 1, 'wght' 200, 'GRAD' 0, 'opsz' 24; }
+.material-symbol.weight__300 { font-variation-settings: 'FILL' 1, 'wght' 300, 'GRAD' 0, 'opsz' 24; }
+.material-symbol.weight__400 { font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+.material-symbol.weight__500 { font-variation-settings: 'FILL' 1, 'wght' 500, 'GRAD' 0, 'opsz' 24; }
+.material-symbol.weight__600 { font-variation-settings: 'FILL' 1, 'wght' 600, 'GRAD' 0, 'opsz' 24; }
+.material-symbol.weight__700 { font-variation-settings: 'FILL' 1, 'wght' 700, 'GRAD' 0, 'opsz' 24; }
+
+.material-symbol-line { font-family: 'Material Symbols Outlined'; font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; -webkit-font-feature-settings: 'liga'; -webkit-font-smoothing: antialiased; }
+.material-symbol-line.weight__100 { font-variation-settings: 'FILL' 0, 'wght' 100, 'GRAD' 0, 'opsz' 24; }
+.material-symbol-line.weight__200 { font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24; }
+.material-symbol-line.weight__300 { font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24; }
+.material-symbol-line.weight__400 { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+.material-symbol-line.weight__500 { font-variation-settings: 'FILL' 0, 'wght' 500, 'GRAD' 0, 'opsz' 24; }
+.material-symbol-line.weight__600 { font-variation-settings: 'FILL' 0, 'wght' 600, 'GRAD' 0, 'opsz' 24; }
+.material-symbol-line.weight__700 { font-variation-settings: 'FILL' 0, 'wght' 700, 'GRAD' 0, 'opsz' 24; }
+
+.material-symbol-round { font-family: 'Material Symbols Rounded'; font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24; -webkit-font-feature-settings: 'liga'; -webkit-font-smoothing: antialiased; }
+.material-symbol-round.weight__100 { font-variation-settings: 'FILL' 1, 'wght' 100, 'GRAD' 0, 'opsz' 24; }
+.material-symbol-round.weight__200 { font-variation-settings: 'FILL' 1, 'wght' 200, 'GRAD' 0, 'opsz' 24; }
+.material-symbol-round.weight__300 { font-variation-settings: 'FILL' 1, 'wght' 300, 'GRAD' 0, 'opsz' 24; }
+.material-symbol-round.weight__400 { font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+.material-symbol-round.weight__500 { font-variation-settings: 'FILL' 1, 'wght' 500, 'GRAD' 0, 'opsz' 24; }
+.material-symbol-round.weight__600 { font-variation-settings: 'FILL' 1, 'wght' 600, 'GRAD' 0, 'opsz' 24; }
+.material-symbol-round.weight__700 { font-variation-settings: 'FILL' 1, 'wght' 700, 'GRAD' 0, 'opsz' 24; }
+
+.material-symbol-line-round { font-family: 'Material Symbols Rounded'; font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; -webkit-font-feature-settings: 'liga'; -webkit-font-smoothing: antialiased; }
+.material-symbol-line-round.weight__100 { font-variation-settings: 'FILL' 0, 'wght' 100, 'GRAD' 0, 'opsz' 24; }
+.material-symbol-line-round.weight__200 { font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24; }
+.material-symbol-line-round.weight__300 { font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24; }
+.material-symbol-line-round.weight__400 { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+.material-symbol-line-round.weight__500 { font-variation-settings: 'FILL' 0, 'wght' 500, 'GRAD' 0, 'opsz' 24; }
+.material-symbol-line-round.weight__600 { font-variation-settings: 'FILL' 0, 'wght' 600, 'GRAD' 0, 'opsz' 24; }
+.material-symbol-line-round.weight__700 { font-variation-settings: 'FILL' 0, 'wght' 700, 'GRAD' 0, 'opsz' 24; }
