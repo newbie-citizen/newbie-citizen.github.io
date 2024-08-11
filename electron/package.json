@@ -1,0 +1,23 @@
+{
+  "name": "22",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "electron": "^22.3.27",
+    "escpos": "^3.0.0-alpha.6",
+    "escpos-usb": "^3.0.0-alpha.4",
+    "jquery": "^3.7.1",
+    "node-printer": "^1.0.4",
+    "node-thermal-printer": "^4.4.2",
+    "printer": "^0.4.0",
+    "usb": "^1.9.1"
+  },
+"devdependencies": {"electron": "^22.3.27"}
+}
