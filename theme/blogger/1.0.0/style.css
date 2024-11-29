@@ -1,0 +1,10 @@
+.uc_first { display: inline-block; }
+.uc_first:first-letter { text-transform: uppercase; }
+.material-symbol { font-family: 'Material Symbols Outlined'; font-weight: normal; font-style: normal; font-size: 24px; line-height: 1; letter-spacing: normal; text-transform: none; display: inline-block; white-space: nowrap; word-wrap: normal; direction: ltr; -webkit-font-feature-settings: 'liga'; -webkit-font-smoothing: antialiased; }
+.material-symbol.--round { font-family: 'Material Symbols Rounded'; font-weight: normal; font-style: normal; font-size: 24px; line-height: 1; letter-spacing: normal; text-transform: none; display: inline-block; white-space: nowrap; word-wrap: normal; direction: ltr; -webkit-font-feature-settings: 'liga'; -webkit-font-smoothing: antialiased; }
+.material-symbol, .material-symbol.--round { font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+.material-symbol.--line { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+[rel='tag'][name='featured'] { display: none; }
+.post-tag { font-size: 10px; }
+.post-tag > a { padding: 2px 10px; border: 1px solid #dedede; border-radius: 100px; background: #fafafa; }
+.post-tag > a:hover { background: #dedede; }
